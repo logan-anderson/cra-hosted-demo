@@ -14,14 +14,14 @@ function Images({ index }) {
                         name="left.src"
                         parse={filename => `${filename}`}
                         uploadDir={() => '/'}
-                        previewSrc={formValues => `${formValues.blocks[index].left.src}`}
+                        previewSrc={formValues => `/cra-hosted-demo/${formValues.blocks[index].left.src}`}
                         focusRing={false}
                     />
                     <InlineImage
                         name="right.src"
                         parse={filename => `/${filename}`}
                         uploadDir={() => '/'}
-                        previewSrc={formValues => `${formValues.blocks[index].right.src}`}
+                        previewSrc={formValues => `/cra-hosted-demo//${formValues.blocks[index].right.src}`}
                         focusRing={false}
                     />
                 </div>
