@@ -21,7 +21,7 @@ function Images({ index }) {
                         name="right.src"
                         parse={filename => `/${filename}`}
                         uploadDir={() => '/'}
-                        previewSrc={formValues => `/cra-hosted-demo//${formValues.blocks[index].right.src}`}
+                        previewSrc={formValues => `/cra-hosted-demo/${formValues.blocks[index].right.src}`}
                         focusRing={false}
                     />
                 </div>
@@ -66,7 +66,7 @@ export const imagesBlock = {
                      * Use that index to target the correct
                      * block in `formValues`
                      */
-                    const currentBlockImage = formValues.blocks[index].left.src
+                    const currentBlockImage = `/cra-hosted-demo/${formValues.blocks[index].left.src}`
                     return currentBlockImage
                 },
                 focusRing: false,
@@ -84,7 +84,7 @@ export const imagesBlock = {
                 uploadDir: () => '/',
                 previewSrc: (formValues, input) => {
                     const index = input.field.name.split('.')[1]
-                    const currentBlockImage = formValues.blocks[index].right.src
+                    const currentBlockImage = `/cra-hosted-demo/${formValues.blocks[index].right.src}`
                     return currentBlockImage
                 },
                 focusRing: false,
