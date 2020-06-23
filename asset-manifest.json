@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cra-hosted-demo/static/css/main.78f5bc2a.chunk.css",
-    "main.js": "/cra-hosted-demo/static/js/main.ef11fbd4.chunk.js",
-    "main.js.map": "/cra-hosted-demo/static/js/main.ef11fbd4.chunk.js.map",
+    "main.js": "/cra-hosted-demo/static/js/main.3639426d.chunk.js",
+    "main.js.map": "/cra-hosted-demo/static/js/main.3639426d.chunk.js.map",
     "runtime-main.js": "/cra-hosted-demo/static/js/runtime-main.ec08c906.js",
     "runtime-main.js.map": "/cra-hosted-demo/static/js/runtime-main.ec08c906.js.map",
     "static/js/2.681dd941.chunk.js": "/cra-hosted-demo/static/js/2.681dd941.chunk.js",
     "static/js/2.681dd941.chunk.js.map": "/cra-hosted-demo/static/js/2.681dd941.chunk.js.map",
     "index.html": "/cra-hosted-demo/index.html",
-    "precache-manifest.7900fbdcd746226df654bbd4afa54311.js": "/cra-hosted-demo/precache-manifest.7900fbdcd746226df654bbd4afa54311.js",
+    "precache-manifest.386de73d79a186aebb857b35bca4f40f.js": "/cra-hosted-demo/precache-manifest.386de73d79a186aebb857b35bca4f40f.js",
     "service-worker.js": "/cra-hosted-demo/service-worker.js",
     "static/css/main.78f5bc2a.chunk.css.map": "/cra-hosted-demo/static/css/main.78f5bc2a.chunk.css.map",
     "static/js/2.681dd941.chunk.js.LICENSE.txt": "/cra-hosted-demo/static/js/2.681dd941.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ec08c906.js",
     "static/js/2.681dd941.chunk.js",
     "static/css/main.78f5bc2a.chunk.css",
-    "static/js/main.ef11fbd4.chunk.js"
+    "static/js/main.3639426d.chunk.js"
   ]
 }
