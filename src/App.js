@@ -4,7 +4,7 @@ import Home from './Home';
 
 function App() {
   const cms = new TinaCMS({
-    enabled: true,
+    enabled: false,
     sidebar: {
       hidden: true,
     },
