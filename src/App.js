@@ -6,7 +6,7 @@ function App() {
   const cms = new TinaCMS({
     enabled: true,
     sidebar: {
-      hidden: true,
+      hidden: false,
     },
     toolbar: { hidden: false },
   });
